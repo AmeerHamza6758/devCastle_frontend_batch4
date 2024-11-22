@@ -1,0 +1,9 @@
+.navbar{
+    background-color: rgba(255, 166, 0, 0.804);
+    color: white;
+    font-weight: bolder;
+}
+.navbar2{
+    background-color: green;
+    color: red;
+}
