@@ -1,0 +1,39 @@
+.first-part{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 40px;
+    padding: 10px 30px;
+
+    }
+.first-part>input{
+    padding: 14px ;
+    border-radius: 10px;
+    flex-grow: 1;
+    /* border-color:red;  */
+    /* border: none;
+    outline: none; */
+}
+
+::placeholder{
+color: rgba(128, 128, 128, 0.852);
+font-size: 13px;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+hr{
+margin: 20px!important;
+}
+
+ul{
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
