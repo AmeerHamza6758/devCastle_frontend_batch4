@@ -1,7 +1,14 @@
 .gridClass {
   display: grid;
-  grid-template-columns: repeat(2 , 1fr);
+  grid-template-columns: repeat(2, 1fr);
   background-color: yellow;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  text-align: center;
 }
 .text {
   background-color: red;
@@ -9,3 +16,45 @@
 .heading {
   background-color: blue;
 }
+
+/* Card */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.image-container {
+  height: 370px;
+  width: 330px;
+  overflow: hidden;
+}
+.image-container > img {
+  object-fit: cover;
+  /* width: 350px; */
+  height: 100%;
+  width: 100%;
+}
+.title {
+  font-weight: 700;
+}
+
+.article {
+  color: grey;
+}
+strong {
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(197, 195, 195);
+  cursor: pointer;
+}
+/* strong:hover{
+  background-color: rgb(255, 240, 203);
+  font-size: 16px;
+
+} */
