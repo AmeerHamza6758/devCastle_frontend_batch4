@@ -1,0 +1,26 @@
+.header {
+  height: 100vh;
+  /* background-color: red; */
+  background-image: url("../../assets/image\ \(2\).png");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  /* background-position: center; */
+  background-blend-mode: difference;
+}
+.header > h1 {
+  color: whitesmoke;
+}
+
+/* Image */
+.image-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid red;
+}
+.image-circle > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
