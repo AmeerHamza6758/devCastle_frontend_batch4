@@ -1,0 +1,23 @@
+.animated {
+  color: red;
+  animation-name: sample;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+
+}
+
+
+
+
+@keyframes sample {
+  from {
+    font-size: 20px;
+    color: red;
+  }
+  to {
+    font-size: 40px;
+    color: yellow;
+  }
+}

@@ -2,7 +2,6 @@
   margin: 0px;
 }
 
-
 .header-section {
   background-color: red;
 }
@@ -10,6 +9,21 @@
   color: white;
   font-size: 30px;
   text-align: center;
+}
+button{
+  color: red;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: yellow;
+  transition: all 0.5s ease-in-out;
+}
+
+button:hover{
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 
