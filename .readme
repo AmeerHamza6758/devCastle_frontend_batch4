@@ -1,0 +1,42 @@
+-unshift method 
+Similar to push(), the unshift() method adds one or more elements to the beginning of an array and returns the length of the modified array.
+syntax = array.unshift()
+
+-POP method
+If you need to remove the last element of an array, you can use the pop() method. It removes only the last element and returns it.
+syntax = array.pop()
+
+-shift Method
+Similarly, the shift() method removes the first element from an array and returns it.
+syntax = array.shift()
+
+-Splice Method
+If you need to remove one or more elements from a specific position of an array, you can use the splice() method.
+syntax = array.splice(start, count)
+
+-Concat Method
+If you need to combine two or more arrays – that is create a single array containing each element of the arrays you want to merge – you can use the concat() method. This method does not change the original arrays and returns a new array.You need to call .concat() on the array that should come first, passing as arguments the arrays you want it to merge with. The order will be reflected in the resulting array.
+array.concat(add array name for concat)
+
+- Includes Method
+If you need to know whether a value is included in an array, you can call the includes() method on it, passing the value you are interested in as the argument.
+syntax = array.includes(value, startingIndex)
+
+-map method
+The map() method generates a new array containing the result of calling a callback function on every element of an array.
+syntax = array.map((element, index, array) => {})
+
+
+-Filter Method
+This method provides you a way to filter the array elements that satisfy a certain criterion.
+syntax =array.filter((element, index, array) => {})
+filter() takes a callback function, whose parameters are the current element, its index, and the array the method is called upon.
+
+-Join method
+We use join method to join the index values.
+syntax = array.join(',')
+
+
+
+
+
